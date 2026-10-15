@@ -1,0 +1,14 @@
+# Data is downloaded by the 00_download_data.sh scripts, not stored here.
+*/data/
+*.h5
+*.parquet
+*.tar.gz
+*.mtx.gz
+*.tsv.gz
+
+# notebook / python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+desktop.ini
